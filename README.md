@@ -46,3 +46,92 @@ Dự án bao gồm các loại kiểm thử như sau:
 ## Báo cáo chi tiết
 Toàn bộ nội dung phân tích yêu cầu, thiết kế test case, mô tả kỹ thuật và hình ảnh minh họa được trình bày chi tiết trong file báo cáo đính kèm.
 [File báo cáo chi tiết](https://github.com/ChiHao144/automation-testing/blob/master/DoAn_KTPM_StepByStep_52_Hao_54_Hieu.docx).
+
+# Demo các kết quả sau khi test
+## Unit Testing 
+
+> - Màn hình tất cả các testcase gồm 11 Pass và 4 Fail
+<p align="center">
+  <img src="https://res.cloudinary.com/dbitlfhjx/image/upload/v1771898809/unittest_k8tpql.png" width="80%"/><br>
+</p>
+
+> - Diện tích hình chữ nhật gồm 6 Pass và 1 Fail
+<p align="center">
+  <img src="https://res.cloudinary.com/dbitlfhjx/image/upload/v1771898810/unitTestDienTich_us8hz6.png" width="80%"/><br>
+   <em>Kết quả tổng quan</em>
+</p>
+<p align="center">
+  <img src="https://res.cloudinary.com/dbitlfhjx/image/upload/v1771898812/unitTestDienTich_2_lcxwtf.png" width="80%"/><br>
+  <em>Kết quả chi tiết với bộ dữ liệu test của file .csv</em>
+</p>
+<p align="center">
+  <img src="https://res.cloudinary.com/dbitlfhjx/image/upload/v1771898812/unitTestDienTich_3_iilulh.png" width="80%"/><br>
+  <em>Kết quả chi tiết với bộ dữ liệu test của file excel</em>
+</p>
+
+> - Giao nhau giữa 2 hình chữ nhật
+<p align="center">
+  <img src="https://res.cloudinary.com/dbitlfhjx/image/upload/v1771898813/unitTestGiaoNhau_lm0yzb.png" width="80%"/><br>
+  <em>Kết quả tổng quan</em>
+</p>
+<p align="center">
+  <img src="https://res.cloudinary.com/dbitlfhjx/image/upload/v1771898814/unitTestGiaoNhau_2_pgqqbu.png" width="80%"/><br>
+  <em>Kết quả chi tiết với bộ dữ liệu test của file .csv</em>
+</p>
+<p align="center">
+  <img src="https://res.cloudinary.com/dbitlfhjx/image/upload/v1771898815/unitTestGiaoNhau_3_q79mgb.png" width="80%"/><br>
+  <em>Kết quả chi tiết với bộ dữ liệu test của file excel</em>
+</p>
+
+## Selenium WebDriver
+
+> - Thêm giỏ hàng
+<p align="center">
+  <img src="https://res.cloudinary.com/dbitlfhjx/image/upload/v1771898808/sele_themgiohang_d0rnbi.png" width="80%"/><br>
+</p>
+
+> - Tìm kiếm sản phẩm
+<p align="center">
+  <img src="https://res.cloudinary.com/dbitlfhjx/image/upload/v1771898809/sele_timkiem_r0avi3.png" width="80%"/><br>
+</p>
+
+> - Đổi ngôn ngữ
+<p align="center">
+  <img src="https://res.cloudinary.com/dbitlfhjx/image/upload/v1771898805/sele_doingonngu_x3crex.png" width="80%"/><br>
+</p>
+
+> - Đổi địa chỉ giao hàng
+<p align="center">
+  <img src="https://res.cloudinary.com/dbitlfhjx/image/upload/v1771898804/sele_doidiachi_cuh5lq.png" width="80%"/><br>
+</p>
+
+> - Liên kết mạng xã hội
+<p align="center">
+  <img src="https://res.cloudinary.com/dbitlfhjx/image/upload/v1771898808/sele_mxh_zjpmci.png" width="80%"/><br>
+</p>
+
+## API Testing trên Postman
+> - Các phương thức GET, POST, PUT, DELETE
+<p align="center">
+  <img src="https://res.cloudinary.com/dbitlfhjx/image/upload/v1771898804/api_get_r96jum.png" width="80%"/><br>
+  <em>Phương thức GET</em>
+</p>
+<p align="center">
+  <img src="https://res.cloudinary.com/dbitlfhjx/image/upload/v1771898803/api_post_p9hkyc.png" width="80%"/><br>
+  <em>Phương thức POST</em>
+</p>
+<p align="center">
+  <img src="https://res.cloudinary.com/dbitlfhjx/image/upload/v1771898803/api_put_gckhr3.png" width="80%"/><br>
+  <em>Phương thức PUT</em>
+</p>
+<p align="center">
+  <img src="https://res.cloudinary.com/dbitlfhjx/image/upload/v1771898803/api_delete_pwww0g.png" width="80%"/><br>
+  <em>Phương thức DELETE</em>
+</p>
+
+> - API trên Postman với JSON SERVER
+<p align="center">
+  <img src="https://res.cloudinary.com/dbitlfhjx/image/upload/v1771898804/api_server_nfsduf.png" width="80%"/><br>
+  <em>Kết quả tổng quan với tất cả các phương thức</em>
+</p>
+
